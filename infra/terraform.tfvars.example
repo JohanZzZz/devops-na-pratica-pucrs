@@ -1,0 +1,5 @@
+aws_region       = "us-east-1"
+project_name     = "devops-na-pratica"
+instance_type    = "t2.micro"
+ssh_public_key   = "ssh-rsa AAAA... your-email@example.com"
+allowed_ssh_cidr = "0.0.0.0/0"
