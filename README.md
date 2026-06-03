@@ -6,7 +6,6 @@ Projeto prático de DevOps demonstrando a implementação completa de um pipelin
 
 ```
 .
-├── docs/                          # Documentação de planejamento
 │   └── planejamento.md            # Documento de planejamento completo
 ├── app/                           # Código-fonte da aplicação
 │   ├── main.py                    # API REST (Flask)
