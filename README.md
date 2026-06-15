@@ -2,6 +2,11 @@
 
 Projeto prático de DevOps demonstrando a implementação completa de um pipeline CI/CD, infraestrutura como código (IaC) e automação.
 
+## Labs
+
+- **Fase 1 — CI/CD + IaC**: API Flask, pipeline GitHub Actions, Terraform (este README)
+- **Fase 2 — [Chatbot RAG](chatbot-rag/README.md)**: chatbot com Agno + OpenAI + pgvector + Redis + Langfuse
+
 ## Estrutura do Projeto
 
 ```
@@ -69,4 +74,4 @@ O pipeline de integração contínua executa automaticamente em cada push e pull
 
 ## Repositório
 
-- **GitHub:** https://github.com/JohanZzZz/devops-na-pratica
+- **GitHub:** https://github.com/JohanZzZz/devops-na-pratica-pucrs
