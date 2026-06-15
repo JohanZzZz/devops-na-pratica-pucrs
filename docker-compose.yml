@@ -1,9 +1,17 @@
 services:
   api:
     build: .
+    image: ghcr.io/johannzzz/devops-na-pratica-pucrs:latest
+    container_name: devops-app
     ports:
-      - "5000:5000"
+      - "80:5000"
     environment:
-      - FLASK_ENV=development
+      - FLASK_ENV=production
       - PORT=5000
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
